@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body { 
+    background-color: #121417;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* div class tarjeta */
+/* rem medida relativa para estilos o cajas */
+
+.tarjeta {
+    background: #252d37;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 320px;
+    box-shadow: 0 20px 40px color(o,0,0,0,2);
+    text-align: left;
+}
+
+
+/* div class estrella*/
+
+.estrella {
+    background-color: #3e444d;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+/* h1 How did we do */
+/* em medida relativa para font-size */
+
+.tarjeta h1 {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
+
+/* p Párrafo */
+/* em medida relativa para font-size */
+
+.tarjeta p {
+    color: #8f98a7;
+    font-size: 0.9em;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+/* Circulos 1,2,3,4 y 5 */
+
+.Calificación {
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.circle {
+    background-color: #3e444d;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    font-weight: bold;
+    cursor:pointer;
+    transition: background 0.3s, color 0.3s; 
+}
+
+.circle:hover {
+    background-color: #fb7413;
+    color: #fff;
+}
+
+/* Botón SUBMIT */
+
+.submit {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #fb7413;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background 0.3s;
+}
+
+.submit:hover {
+    background-color: #ffffff;
+    color: #fb7413;
+}
+
